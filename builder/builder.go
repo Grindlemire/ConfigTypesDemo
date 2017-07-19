@@ -31,7 +31,7 @@ func main() {
 	builderType2 := NewMyType().
 		SetMyStr("Builder Constructor passing in args").
 		SetMyInt(1338).
-		SetMySub(sub.NewThing(11, "My sub string builder"))
+		SetMySubAlternative("My sub string builder alternative", 12)
 
 	defaultBuilderType := NewMyType()
 
